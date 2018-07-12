@@ -17,9 +17,6 @@ public class THESMAN {
     public static void main(String[] args) {
        System.out.println("yasd");
        
-       
-       System.out.println("he");
-       System.out.println("hello github");
     }
     
 }
