@@ -18,7 +18,11 @@ public class THESMAN {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws ResponseException, NotFound {
-        new Login();
+                java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new Login().setVisible(true);
+            }
+        });
        /* M160by2 m160by2=new M160by2();
         m160by2.login("9821958067","64145282");
         m160by2.sendSMS("Welcome THESMAN","9821958067"); 
